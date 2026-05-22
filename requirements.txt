@@ -1,0 +1,8 @@
+fastapi==0.103.2
+uvicorn==0.23.2
+detoxify==0.5.2
+pydantic==2.4.2
+numpy<2.0.0
+# Force CPU-only PyTorch. Version 2.4.1 satisfies the transformers >= 2.4 requirement
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch==2.4.1
